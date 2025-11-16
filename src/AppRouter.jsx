@@ -6,6 +6,8 @@ import { Technologies } from "./components/Technologies";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import { Contect } from "./components/Contect";
+import Magnetic from "./Magnetic";
+import CustomCursor from "./CustomCursor";
 
 const AppRouter = () => {
   return (
@@ -23,6 +25,8 @@ const AppRouter = () => {
         {/* <Experience/> */}
         <Projects/>
         <Contect/>
+        <Magnetic></Magnetic>
+        <CustomCursor></CustomCursor>
       </div>
 
     </div>
